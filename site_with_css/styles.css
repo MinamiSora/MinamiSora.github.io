@@ -1,0 +1,50 @@
+body {
+    background-color: #25c0e0;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__title {
+    text-align: center;
+}
+
+.nav__list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.nav__link:hover {
+    color: #fef34e;
+    cursor: pointer;
+}
+
+
+.nav__link--red {
+    color: red;
+}
+
+.main {
+    margin: 50px 0;
+}
+
+.main__description {
+    color: #fef34e;
+}
+
+.list {
+    padding: 0;
+}
+
+.list__item {
+    color: #fef34e;
+}
